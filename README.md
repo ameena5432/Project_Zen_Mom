@@ -46,7 +46,7 @@ Example questions -
 
 Python 3 (install python3 and up on your machine)
 
-Pandas   (If you do not have pandas then run command : pip3 install pandas in your command prompt)
+Pandas   (If you do not have pandas then run command : pip3 install pandas )
 
 #### Instructions to run the project
 
