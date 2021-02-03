@@ -74,12 +74,14 @@ Pandas   (If you do not have pandas then run command : pip3 install pandas in yo
 * Scenario 1: If there is just one greater precedence scale factor use only that
 
     - Below is the Mom's Response data captured after her pumping session for demonstrating Scenario 1 :
+    
+      #### Here I'm also demonstrating how I'm handling the junk inputs in two important columns Session_id and Mom_id(shown in image below  : mom_id  with junk input "Abcd" is ignored ) :
 
-       ![image](https://user-images.githubusercontent.com/11728248/106683331-29b35980-6579-11eb-8ab9-99106e354c3f.png)
+       ![image](https://user-images.githubusercontent.com/11728248/106807091-97b15c80-661d-11eb-9425-ff0e219276cb.png)
 
-        ###### Expected Output : High Stress , Medium Fatigue ( If there is just one greater precedence scale factor use only that )
+        ###### Expected Output : High Stress , low Stress ( If there is just one greater precedence scale factor use only that )
 
-         ![image](https://user-images.githubusercontent.com/11728248/106683627-b8c07180-6579-11eb-80c0-29c8409d6f47.png)
+         ![image](https://user-images.githubusercontent.com/11728248/106806860-528d2a80-661d-11eb-9347-905e88ca4999.png)
 
 
 * Scenario 2: If there are multiple labels of the same scale then use the first one in the list of questions
@@ -146,8 +148,8 @@ Future Enhancements :
       
 TODO Comments :
 
-   1) Adding unit test cases like checking for column names , columns like session_id starting with keyword "session_".
-   2) Handling more edge cases and junk inputs.
+   1) Adding unit test cases.
+   2) Handling more edge cases.
    3) Checking for a larger dataset and optimizing the speed/storage to run faster with bigger dataset.
    
    
