@@ -59,6 +59,8 @@ Pandas   (If you do not have pandas then run command : pip3 install pandas in yo
 
         ----------------------------------------------------------------------
         Ran 5 tests in 0.654s
+        
+### After running the tests, 5 output files will be created (one for each test sceanrio) in the same folder to verify the results. 
 
 
 ### A summary presentation of the testing scenarios can be found below : 
