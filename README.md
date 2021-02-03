@@ -21,11 +21,11 @@ Example questions -
 
 ##### Source Code :
 
-1) Project_Zen_Mom_1.py 
+1) Project_Zen_Mom.py 
 
 ###### Test Code:
 
-1) test_project_zen_mom_1.py
+1) test_project_zen_mom.py
 
 ###### CSV Files:
 
@@ -53,7 +53,7 @@ Pandas   (If you do not have pandas then run command : pip3 install pandas in yo
 1) Go to terminal on mac or command-line interpreter in windows and navigate to the Project_Zen_Mom folder.
 2) Run the following command to run the test cases :
 
-      python3 -m unittest test_project_zen_mom_1.py
+      python3 -m unittest test_project_zen_mom.py
       
 ###### Expected Results : 
 
