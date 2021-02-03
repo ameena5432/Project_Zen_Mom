@@ -14,9 +14,8 @@ Example questions -
 
 #### The solution
 
-1) Using 3 CSV files i.e., Pumping_Session.CSV , Survey_Questions.CSV and Moms_Reponse.CSV
-2) Creating a factor label based on response score for 3 questions given to Mom after each session with an option to rate on scale of 1 to 5
-3) This factor label helps us to access the user experience of moms after each pumping session
+1) We will be creating a factor label based on response score for 3 questions in the survey given to Mom after each session with an option to rate on scale of 1 to 5.
+2) We will use this factor label / study to help moms understand on how thier liefstyle is impacting pumped milk volume.
 
 #### Files included in the project:
 
@@ -26,7 +25,7 @@ Example questions -
 
 ###### Test Code:
 
-1) test_project_zen_mom.py
+1) test_project_zen_mom_1.py
 
 ###### CSV Files:
 
@@ -54,7 +53,7 @@ Pandas   (If you do not have pandas then run command : pip3 install pandas in yo
 1) Go to terminal on mac or command-line interpreter in windows and navigate to the Project_Zen_Mom folder.
 2) Run the following command to run the test cases :
 
-      python3 -m unittest test_project_zen_mom.py
+      python3 -m unittest test_project_zen_mom_1.py
       
 ###### Expected Results : 
 
@@ -141,15 +140,13 @@ Future Enhancements :
    1) I would like to further enhance my code by following the enhnacement driven development practices and 
       make sure additional scenarios can be handled without any code changes
       
-      For example : If in future we add more survey questions or decide to increase the options in the rating scale and so on.
+      For example : If in future we add more survey questions or decide to increase the options in the rating scale then our code should be able to handle it seamlessly.
       
 TODO Comments :
 
-   1) Adding unit test cases.
-   2) Handling more edge cases
-   3) Checking for a larger dataset
-   4) Avoiding creating multiple dataframes when cleansed and insted save storage space.
-   5) Tring to make the code faster with bigger dataset.
+   1) Adding unit test cases like checking for column names , columns like session_id starting with keyword "session_".
+   2) Handling more edge cases and junk inputs.
+   3) Checking for a larger dataset and optimizing the speed/storage to run faster with bigger dataset.
    
    
   
