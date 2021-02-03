@@ -21,7 +21,7 @@ Example questions -
 
 ##### Source Code :
 
-1) Project_Zen_Mom.py 
+1) Project_Zen_Mom_1.py 
 
 ###### Test Code:
 
@@ -105,12 +105,9 @@ Pandas   (If you do not have pandas then run command : pip3 install pandas in yo
 
      Here I'm demonstrating following things :
 
-     - 1) I have assumed that some characters like '?' , '&' have come as junk inputs in our data. I have converted them to NaN (Not a Number) and  
-                 calculated the factor label
+     - 1) I have cleansed the rows with junk characters and I have cleansed the rows with NaN(Not a Number) from Moms_Response.csv and then calculated the factor label.
 
-     - 2) I have cleansed the rows with NaN(Not a Number) from Moms_Response.csv and then calculated the factor label.
-
-    - 3) Hence from the Moms_Response file , Survery Response Id : srv_res_1 , Mom_Id : mom_1 and Session_id :  session_1 has answered only 2 questions
+    - 2) Hence from the Moms_Response file , Survery Response Id : srv_res_1 , Mom_Id : mom_1 and Session_id :  session_1 has answered only 2 questions
             and out of the 2 questions answered, question 1 has highest score of 3 from that survey. Therefore we see "medium stress" as the most influencial 
             factor for this Mom's Session.
 
