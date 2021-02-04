@@ -79,7 +79,7 @@ This project accepts only CSV files as input.
     
       #### Here I'm also demonstrating how I'm handling the junk inputs in two important columns Session_id and Mom_id(shown in image below  : mom_id  with junk input "Abcd" is ignored ) :
 
-       ![image](https://user-images.githubusercontent.com/11728248/106807091-97b15c80-661d-11eb-9425-ff0e219276cb.png)
+       ![image](https://user-images.githubusercontent.com/11728248/106850509-79714e00-6669-11eb-89af-f891df7b36a0.png)
 
         ###### Expected Output : High Stress , low Stress ( If there is just one greater precedence scale factor use only that )
 
@@ -90,7 +90,7 @@ This project accepts only CSV files as input.
 
     - Below is the Mom's Response data captured after her pumping session for demonstrating Scenario 2 :
 
-         ![image](https://user-images.githubusercontent.com/11728248/106684209-e2c66380-657a-11eb-8013-5c6672e05668.png)
+         ![image](https://user-images.githubusercontent.com/11728248/106850714-e4bb2000-6669-11eb-81b4-3c7656d02ff2.png)
 
       ###### Expected Output : Low Stress , Medium Stress ( If there are multiple labels of the same scale then use the first question)
 
@@ -101,7 +101,7 @@ This project accepts only CSV files as input.
 
     - Below is the Mom's Response data captured after her pumping session for demonstrating Scenario 3:
 
-         ![image](https://user-images.githubusercontent.com/11728248/106688867-ca0e7b80-6583-11eb-8dad-2cb983d9ca09.png)
+         ![image](https://user-images.githubusercontent.com/11728248/106850382-4464fb80-6669-11eb-8cc1-d1536bb3d74b.png)
   
      ###### Expected Output : Medium Stress , High Positivity ( If Mom does not answer a question from that session's survey ):
 
