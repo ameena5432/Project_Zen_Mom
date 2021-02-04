@@ -48,6 +48,8 @@ Python 3 (install python3 and up on your machine)
 
 Pandas   (If you do not have pandas then run command : pip3 install pandas )
 
+This project accepts only CSV files as input.
+
 #### Instructions to run the project
 
 1) Go to terminal on mac or command-line interpreter in windows and navigate to the Project_Zen_Mom folder.
@@ -118,7 +120,7 @@ Pandas   (If you do not have pandas then run command : pip3 install pandas )
 
     - Below is the Mom's Response data captured after her pumping session for demonstrating Scenario 4:
 
-         ![image](https://user-images.githubusercontent.com/11728248/106689899-a2b8ae00-6585-11eb-86fb-0e486f083ad0.png)
+         ![image](https://user-images.githubusercontent.com/11728248/106849909-68740d00-6668-11eb-8411-07081341c6ce.png)
   
         ###### Expected Output : high fatigue from Session 2 of Mom_1 and Session 1 is completely ignored because no questions were answered.
   
