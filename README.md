@@ -105,13 +105,17 @@ This project accepts only CSV files as input.
   
      ###### Expected Output : Medium Stress , High Positivity ( If Mom does not answer a question from that session's survey ):
 
-     Here I'm demonstrating following things :
+     Here the code demonstrates following things :
 
-     - 1) I have cleansed the rows with junk characters and I have cleansed the rows with NaN(Not a Number) from Moms_Response.csv and then calculated the factor label.
+     - 1) We have handled the junk inputs and NaN(Not a Number) from Moms_Response.csv and then calculated the factor label.
 
-    - 2) Hence from the Moms_Response file , Survery Response Id : srv_res_1 , Mom_Id : mom_1 and Session_id :  session_1 has answered only 2 questions
-            and out of the 2 questions answered, question 1 has highest score of 3 from that survey. Therefore we see "medium stress" as the most influencial 
-            factor for this Mom's Session.
+    - 2) Example : 
+         From our Scenario_3_Moms_Response dataset :
+         Survery Response Id = srv_res_1 , 
+         Mom_Id = mom_1 
+         Session_id = session_1 has answered only 2 questions and skippd one . Our code cleanly handles such scenarios and picks the question with highest score 
+         among answered two question i.e., highest response score is 3 from that survey. Therefore we see "medium stress" as the most influencial factor for 
+         this Mom's Session.
 
      ![image](https://user-images.githubusercontent.com/11728248/106689111-4acd7780-6584-11eb-9567-25fe29e17267.png)
 
@@ -141,8 +145,8 @@ This project accepts only CSV files as input.
   
 Future Enhancements :
 
-   1) I would like to further enhance my code by following the enhnacement driven development practices and 
-      make sure additional scenarios can be handled without any code changes
+   1) I would like to further enhance my code by following the configuration driven development practices and our code should be able to handle it with only   
+      config changes.
       
       For example : If in future we add more survey questions or decide to increase the options in the rating scale then our code should be able to handle it seamlessly.
       
